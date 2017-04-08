@@ -1,0 +1,31 @@
+body{
+    background-color: #FFFAFO;
+    font-family: 'Muli', sans-serif;
+    }
+#header{
+    text-align: center;
+    color: #606C38;
+    border-color: #606c38;
+    border-width: 5px;
+    border-style: double;
+    padding: 25px 5px 25px 5px;
+}
+
+#navbar li{
+    background-color: #606C38;
+    text-align: center;
+    display: inline;
+    width: 19%;
+    float: left;
+    margin-right: .5em;
+}
+
+#navbar li a{
+    font-size: 1.1em;
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: .75;}
+
+
