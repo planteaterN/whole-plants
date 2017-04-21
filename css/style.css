@@ -1,6 +1,8 @@
 body{
     background-color: #FFFAFO;
     font-family: 'Muli', sans-serif;
+    font-size: 1em;
+    margin-left: 2em; /*left out margin before*/
     }
 #header{
     text-align: center;
@@ -8,16 +10,18 @@ body{
     border-color: #606c38;
     border-width: 5px;
     border-style: double;
-    padding: 25px 5px 25px 5px;
+    
+    font-size: 1.5em;/*changed font from 2em*/
 }
 
 #navbar li{
     background-color: #606C38;
     text-align: center;
-    display: inline;
-    width: 19%;
-    float: left;
-    margin-right: .5em;
+    display: inline-block;
+    width: 32%;
+    /*float: left;*/
+    margin-left: .1em;
+    
 }
 
 #navbar li a{
@@ -26,6 +30,65 @@ body{
     text-decoration: none;
     color: white;
     display: block;
-    padding: .75;}
+    padding: 1;}
+    
+#navbar a:hover {
+    color: #FFCA2D /* change to a yellow*/
+}    
 
+.books {
+    margin-left: 3em;
+    max-width: 1000px;
+}
+.special {
+    margin: 0 1.5em 0 1.5em;
+    margin: .75em;
+    list-style-type: circle; /*should take this out*/
+}
 
+.container {
+    text-align: center;
+}
+
+.talk {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.greentalk {text-align: justify;
+
+}
+
+.footer {
+    text-align: center;
+    color: #606C38;
+    border-color: #606c38;
+    border-width: 5px;
+    border-style: double;
+    clear: both;
+    margin-top: 2em;
+    font-size: .75em;
+}
+
+/*would like to border images*/
+ .yum {
+     width: 20%;
+     display: inline-block;
+     text-align: center;
+     height: 172px;
+     margin: 2em;
+ }
+ 
+ .yum img{
+     width: 306px;
+     height: 172px;
+ }
+ 
+ .leftmargin {
+     margin-left: 3.5em;
+ }
+ 
+ .centerpix {
+     margin-left: 6em;
+ }
